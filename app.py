@@ -17,13 +17,13 @@ st.set_page_config(
     layout="centered"
 )
 
-# Injeção da imagem técnica validada no topo como o ícone principal do App
+# Puxada direta e corrigida do seu repositório oficial no GitHub
 st.image(
-    "https://raw.githubusercontent.com/peritoaler-max/app-oring/master/image_275c83.png", 
+    "https://raw.githubusercontent.com/peritoaler-max/repo/master/image_275c83.png", 
     width=120
 )
 
-# Cabeçalho limpo e profissional
+# Cabeçalho limpo, profissional e responsivo para iPhone/PC
 st.title("REGISTRO DE INSTALAÇÃO DE SELOS")
 st.subheader("Sistema de Rastreabilidade e Integridade de Vedações — ORION")
 st.markdown("---")
